@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline Block</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        span.a{
+            display: inline;
+            background-color: yellow;
+            border: 1px solid green;
+            width: 100px;
+            height: 100px;
+            padding: 5px;
+        }
+        span.b{
+            display: inline-block;
+            background-color: yellow;
+            border: 1px solid green;
+            width: 100px;
+            height: 100px;
+            padding: 5px;
+        }
+        span.c{
+            display: block;
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+
+<body>
+        <p>Compared to display: inline, the major difference is that display: inline-block allows to set a width and height on the element.</p>
+        <h2>Example</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ab tempora rem quae impedit dolores consequatur non,<span class="a">inline</span> velit totam eligendi repellat aspernatur, eum veritatis voluptate optio neque expedita enim laudantium nisi. Asperiores rerum praesentium quod cupiditate delectus, sed perspiciatis nesciunt.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident beatae quaerat atque? Sapiente explicabo, <span class="b">Inline block</span> a nostrum totam veritatis expedita.</p>
+
+        <p>Lorem ipsum dolor sit, <span class="c">display block</span> amet consectetur adipisicing elit. 
+            <span class="c">Display Block</span>Obcaecati temporibus perspiciatis sint adipisci eius ea sapiente qui quisquam vero suscipit.</p>
+
+
+            <hr>
+        <ul class="nav">
+            <li class="nav-item"><a href="#">Home</a></li>
+            <li class="nav-item"><a href="#">About Us</a></li>
+            <li class="nav-item"><a href="#">Services</a></li>
+            <li class="nav-item"><a href="#">Signin</a></li>
+        </ul>
+</body>
+</html>

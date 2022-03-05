@@ -1,0 +1,13 @@
+a {
+  text-decoration: none;
+  text-align: center;
+  color: #c20b66;
+  background-color: antiquewhite;
+  padding: 8px 16px;
+  margin: 16px;
+}
+
+a:hover {
+  color: hotpink;
+}
+/*# sourceMappingURL=styles.css.map */
